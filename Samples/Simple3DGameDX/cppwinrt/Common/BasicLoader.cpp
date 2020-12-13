@@ -10,6 +10,7 @@
 #include "BasicShapes.h"
 #include "DDSTextureLoader.h"
 #include <cwctype>
+#include <iterator>
 
 BasicLoader::BasicLoader(
     _In_ winrt::com_ptr<ID3D11Device3> d3dDevice,
